@@ -1,7 +1,7 @@
 {
   "name": "Java Dev Container",
   "build": {
-    "dockerfile": ".devcontainer/Dockerfile"
+    "dockerfile": "Dockerfile"
   },
   "forwardPorts": [8080],
   "customizations": {
