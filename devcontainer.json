@@ -1,16 +1,17 @@
 {
-  "name": "Java Dev Container",
+  "name": "Lyrics Web Service",
   "build": {
     "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "docker-in-docker": "latest"
   },
   "forwardPorts": [8080],
   "customizations": {
     "vscode": {
-      "extensions": [
-        "vscjava.vscode-java-pack",
-        "vscjava.vscode-maven"
-      ]
+      "extensions": ["ms-azuretools.vscode-docker"]
     }
   }
 }
+
 
