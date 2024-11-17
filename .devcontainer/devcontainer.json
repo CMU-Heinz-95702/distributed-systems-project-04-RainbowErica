@@ -4,7 +4,6 @@
     "dockerfile": "Dockerfile"
   },
   "forwardPorts": [8080],
-  "postCreateCommand": "sudo service tomcat9 start",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -14,3 +13,4 @@
     }
   }
 }
+
